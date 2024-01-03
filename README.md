@@ -7,6 +7,6 @@ pip install -r requirements.txt
 python mainwindow.py
 ```
 ## logo
-![image](./logo.jpg)
+![image](./assets/logo.jpg)
 ## screen
-![screen](./image.png)
+![screen](./assets/image.png)
