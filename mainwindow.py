@@ -4,9 +4,9 @@ from PIL import Image, ImageTk
 import sqlite3
 import numpy as np
 
-cos_index = np.load("cos_index.npy")
-jaro_index = np.load("jaro_index.npy")
-conn = sqlite3.connect('data.db')
+cos_index = np.load("./data/cos_index.npy")
+jaro_index = np.load("./data/jaro_index.npy")
+conn = sqlite3.connect("./data/data.db")
 c = conn.cursor()
 result = c.execute("select count(*) from words;")
 word_count = result.fetchall()[0][0]
